@@ -2,47 +2,61 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Chivo"; }
+  font-family: "Chivo";
+}
 
 @font-face {
   font-family: "Chivo";
   src: url("../fonts/Chivo-Light.ttf");
   font-weight: 300;
-  font-style: normal; }
+  font-style: normal;
+}
+
 @font-face {
   font-family: "Chivo";
   src: url("../fonts/Chivo-LightItalic.ttf");
   font-weight: 300;
-  font-style: italic; }
+  font-style: italic;
+}
+
 @font-face {
   font-family: "Chivo";
   src: url("../fonts/Chivo-Regular.ttf");
   font-weight: 400;
-  font-style: normal; }
+  font-style: normal;
+}
+
 @font-face {
   font-family: "Chivo";
   src: url("../fonts/Chivo-Italic.ttf");
   font-weight: 400;
-  font-style: italic; }
+  font-style: italic;
+}
+
 @font-face {
   font-family: "Chivo";
   src: url("../fonts/Chivo-Bold.ttf");
   font-weight: 500;
-  font-style: normal; }
+  font-style: normal;
+}
+
 @font-face {
   font-family: "Chivo";
   src: url("../fonts/Chivo-BoldItalic.ttf");
   font-weight: 500;
-  font-style: italic; }
+  font-style: italic;
+}
+
 @font-face {
   font-family: "Chivo";
   src: url("../fonts/Chivo-Black.ttf");
   font-weight: 600;
-  font-style: normal; }
+  font-style: normal;
+}
+
 @font-face {
   font-family: "Chivo";
   src: url("../fonts/Chivo-BlackItalic.ttf");
   font-weight: 600;
-  font-style: italic; }
-
-/*# sourceMappingURL=main.css.map */
+  font-style: italic;
+}
