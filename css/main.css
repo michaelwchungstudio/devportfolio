@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Chivo"; }
+  font-family: "Chivo";
+  font-size: 16px; }
 
 @font-face {
   font-family: "Chivo";
@@ -44,5 +45,22 @@
   src: url("../fonts/Chivo-BlackItalic.ttf");
   font-weight: 600;
   font-style: italic; }
+.navbar {
+  height: 91px;
+  padding: 0 15%;
+  margin: 0 auto;
+  border-bottom: 1px solid #EAEAEA; }
+
+.left-links {
+  float: left; }
+
+.right-links {
+  float: right; }
+
+.navlink {
+  display: inline-block;
+  margin: 2.25rem 1.75rem;
+  text-decoration: none;
+  color: black; }
 
 /*# sourceMappingURL=main.css.map */
