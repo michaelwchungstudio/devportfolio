@@ -47,20 +47,43 @@
   font-style: italic; }
 .navbar {
   height: 91px;
-  padding: 0 15%;
+  padding: 0 19%;
   margin: 0 auto;
   border-bottom: 1px solid #EAEAEA; }
-
-.left-links {
-  float: left; }
-
-.right-links {
-  float: right; }
+  .navbar .left-links {
+    float: left; }
+  .navbar .left-links a:first-child {
+    margin-left: 0; }
+  .navbar .right-links {
+    float: right; }
+  .navbar .right-links a:last-child {
+    margin-right: 0; }
 
 .navlink {
   display: inline-block;
   margin: 2.25rem 1.75rem;
   text-decoration: none;
   color: black; }
+
+.basic-info {
+  width: 62%;
+  margin: 0 auto;
+  margin-top: 6rem;
+  margin-bottom: 4rem; }
+
+#my-name {
+  font-size: 2.25rem;
+  font-weight: 500;
+  margin-bottom: 1rem; }
+
+#my-title {
+  font-size: 1.7rem;
+  font-weight: 300;
+  margin-bottom: 2rem; }
+
+#my-passion {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #777777; }
 
 /*# sourceMappingURL=main.css.map */

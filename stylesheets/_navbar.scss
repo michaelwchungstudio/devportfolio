@@ -1,16 +1,24 @@
 .navbar {
   height: 91px;
-  padding: 0 15%;
+  padding: 0 19%;
   margin: 0 auto;
   border-bottom: 1px solid $light-gray;
-}
 
-.left-links {
-  float: left;
-}
+  .left-links {
+    float: left;
+  }
 
-.right-links {
-  float: right;
+  .left-links a:first-child {
+    margin-left: 0;
+  }
+
+  .right-links {
+    float: right;
+  }
+
+  .right-links a:last-child {
+    margin-right: 0;
+  }
 }
 
 .navlink {
