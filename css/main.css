@@ -78,11 +78,11 @@
   margin-top: 6rem;
   margin-bottom: 6rem; }
   .basic-info #my-name {
-    font-size: 2.25rem;
+    font-size: 2.35rem;
     font-weight: 500;
     margin-bottom: 1rem; }
   .basic-info #my-title {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     font-weight: 300;
     margin-bottom: 2rem; }
   .basic-info #my-passion {
@@ -96,21 +96,19 @@
   .skills-sec #skills-title {
     font-size: 1.45rem;
     font-weight: 400;
-    margin-bottom: 2.5rem; }
+    margin-bottom: 3.5rem; }
 
-.logos-sec {
-  padding-left: 2.5%; }
-  .logos-sec .prog-skills-row1 {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 25px; }
-  .logos-sec .prog-skills-row2 {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 25px; }
-  .logos-sec .design-skills-sec {
-    display: flex;
-    margin-top: 1rem; }
+.logos-sec .prog-skills-row1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 25px; }
+.logos-sec .prog-skills-row2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 25px; }
+.logos-sec .design-skills-sec {
+  display: flex;
+  margin-top: 1rem; }
 
 .logo {
   display: inline;
@@ -131,13 +129,16 @@
   background-image: url("../imgs/skills/sass.png"); }
 
 #js-logo {
-  background-image: url("../imgs/skills/javascript.png"); }
+  background-image: url("../imgs/skills/javascript.png");
+  background-size: 92.5%; }
 
 #jquery-logo {
-  background-image: url("../imgs/skills/jquery.png"); }
+  background-image: url("../imgs/skills/jquery.png");
+  background-size: 92.5%; }
 
 #ruby-logo {
-  background-image: url("../imgs/skills/ruby.png"); }
+  background-image: url("../imgs/skills/ruby.png");
+  background-size: 90%; }
 
 #rails-logo {
   background-image: url("../imgs/skills/rails.png"); }
@@ -155,16 +156,20 @@
   background-image: url("../imgs/skills/heroku.png"); }
 
 #ps-logo {
-  background-image: url("../imgs/skills/photoshop.png"); }
+  background-image: url("../imgs/skills/photoshop.png");
+  background-size: 92.5%; }
 
 #ai-logo {
-  background-image: url("../imgs/skills/illustrator.png"); }
+  background-image: url("../imgs/skills/illustrator.png");
+  background-size: 92.5%; }
 
 #id-logo {
-  background-image: url("../imgs/skills/indesign.png"); }
+  background-image: url("../imgs/skills/indesign.png");
+  background-size: 92.5%; }
 
 #pr-logo {
-  background-image: url("../imgs/skills/premierepro.png"); }
+  background-image: url("../imgs/skills/premierepro.png");
+  background-size: 92.5%; }
 
 .projects-sec {
   margin-top: 2.5rem;
