@@ -45,6 +45,15 @@
   src: url("../fonts/Chivo-BlackItalic.ttf");
   font-weight: 600;
   font-style: italic; }
+.horiz-divider {
+  height: 1px;
+  width: 300px;
+  background-color: #EAEAEA; }
+
+.body-content {
+  width: 62%;
+  margin: 0 auto; }
+
 .navbar {
   height: 91px;
   padding: 0 19%;
@@ -66,24 +75,26 @@
   color: black; }
 
 .basic-info {
-  width: 62%;
-  margin: 0 auto;
   margin-top: 6rem;
-  margin-bottom: 4rem; }
+  margin-bottom: 6rem; }
+  .basic-info #my-name {
+    font-size: 2.25rem;
+    font-weight: 500;
+    margin-bottom: 1rem; }
+  .basic-info #my-title {
+    font-size: 1.7rem;
+    font-weight: 300;
+    margin-bottom: 2rem; }
+  .basic-info #my-passion {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #777777; }
 
-#my-name {
-  font-size: 2.25rem;
-  font-weight: 500;
-  margin-bottom: 1rem; }
-
-#my-title {
-  font-size: 1.7rem;
-  font-weight: 300;
-  margin-bottom: 2rem; }
-
-#my-passion {
-  font-size: 1.25rem;
-  font-weight: 400;
-  color: #777777; }
+.my-skills {
+  margin-top: 2.5rem; }
+  .my-skills #skills-title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem; }
 
 /*# sourceMappingURL=main.css.map */

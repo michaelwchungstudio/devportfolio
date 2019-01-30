@@ -68,3 +68,16 @@ $med-gray: #777777;
   font-weight: 600;
   font-style: italic;
 }
+
+// Divider
+.horiz-divider {
+  height: 1px;
+  width: 300px;
+  background-color: $light-gray;
+}
+
+// Body content
+.body-content {
+  width: 62%;
+  margin: 0 auto;
+}
