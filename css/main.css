@@ -91,33 +91,79 @@
     color: #777777; }
 
 .skills-sec {
-  margin-top: 2.5rem; }
+  margin-top: 2.5rem;
+  margin-bottom: 6rem; }
   .skills-sec #skills-title {
     font-size: 1.45rem;
     font-weight: 400;
     margin-bottom: 2.5rem; }
 
 .logos-sec {
-  padding-left: 2.5%;
-  border: 1px solid; }
-  .logos-sec .prog-skills-sec {
+  padding-left: 2.5%; }
+  .logos-sec .prog-skills-row1 {
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    margin-bottom: 25px; }
+  .logos-sec .prog-skills-row2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px; }
   .logos-sec .design-skills-sec {
     display: flex;
     margin-top: 1rem; }
 
 .logo {
   display: inline;
-  height: 90px;
-  width: 90px;
-  border: 1px solid;
-  background-size: contain; }
+  height: 95px;
+  width: 95px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 15px; }
 
 #html-logo {
   background-image: url("../imgs/skills/html5.png"); }
 
 #css3-logo {
   background-image: url("../imgs/skills/css3.png"); }
+
+#sass-logo {
+  background-image: url("../imgs/skills/sass.png"); }
+
+#js-logo {
+  background-image: url("../imgs/skills/javascript.png"); }
+
+#jquery-logo {
+  background-image: url("../imgs/skills/jquery.png"); }
+
+#ruby-logo {
+  background-image: url("../imgs/skills/ruby.png"); }
+
+#rails-logo {
+  background-image: url("../imgs/skills/rails.png"); }
+
+#sqlite-logo {
+  background-image: url("../imgs/skills/sqlite.png"); }
+
+#git-logo {
+  background-image: url("../imgs/skills/git.png"); }
+
+#github-logo {
+  background-image: url("../imgs/skills/github.png"); }
+
+#heroku-logo {
+  background-image: url("../imgs/skills/heroku.png"); }
+
+#ps-logo {
+  background-image: url("../imgs/skills/photoshop.png"); }
+
+#ai-logo {
+  background-image: url("../imgs/skills/illustrator.png"); }
+
+#id-logo {
+  background-image: url("../imgs/skills/indesign.png"); }
+
+#pr-logo {
+  background-image: url("../imgs/skills/premierepro.png"); }
 
 /*# sourceMappingURL=main.css.map */
