@@ -26,8 +26,13 @@
   margin: 2.25rem 1.75rem;
   text-decoration: none;
   color: black;
+  font-style: normal;
+  transition: all 0.5s ease;
 }
 
 .navlink:hover {
-  font-style: italic;
+  -webkit-transform: skewX(-15deg);
+  -moz-transform: skewX(-15deg);
+  -o-transform: skewX(-15deg);
+  transform: skewX(-15deg);
 }
