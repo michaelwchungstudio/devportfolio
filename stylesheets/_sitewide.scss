@@ -69,6 +69,17 @@ $med-gray: #777777;
   font-style: italic;
 }
 
+// Body fade in
+body {
+  opacity: 0;
+  
+  -webkit-transition: opacity 1.5s ease-in;
+  -moz-transition: opacity 1.5s ease-in;
+  -ms-transition: opacity 1.5s ease-in;
+  -o-transition: opacity 1.5s ease-in;
+  transition: opacity 1.5s ease-in;
+}
+
 // Divider
 .horiz-divider {
   height: 1px;

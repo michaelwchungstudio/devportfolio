@@ -45,6 +45,14 @@
   src: url("../fonts/Chivo-BlackItalic.ttf");
   font-weight: 600;
   font-style: italic; }
+body {
+  opacity: 0;
+  -webkit-transition: opacity 1.5s ease-in;
+  -moz-transition: opacity 1.5s ease-in;
+  -ms-transition: opacity 1.5s ease-in;
+  -o-transition: opacity 1.5s ease-in;
+  transition: opacity 1.5s ease-in; }
+
 .horiz-divider {
   height: 1px;
   width: 200px;
@@ -232,6 +240,7 @@
 .proj-demos-repos {
   font-size: 0.9rem;
   font-weight: 500;
+  color: #777777;
   margin-top: 10px; }
 
 .proj-link {
