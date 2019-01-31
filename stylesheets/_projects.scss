@@ -57,8 +57,34 @@
   margin-top: 17.5px;
 }
 
+.proj-prog-langs {
+  font-size: 0.9rem;
+  color: $med-gray;
+  line-height: 1.4rem;
+  margin-top: 10px;
+}
+
 .proj-description {
   font-size: 0.9rem;
   line-height: 1.4rem;
   margin-top: 10px;
+}
+
+.proj-demos-repos {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.proj-link {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: $med-gray;
+  line-height: 1.4rem;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.proj-link:hover {
+  color: black;
 }
