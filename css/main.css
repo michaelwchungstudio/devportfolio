@@ -82,6 +82,9 @@ body {
   text-decoration: none;
   color: black; }
 
+.navlink:hover {
+  font-style: italic; }
+
 .basic-info {
   margin-top: 6rem;
   margin-bottom: 6rem; }
@@ -97,6 +100,14 @@ body {
     font-size: 1.25rem;
     font-weight: 400;
     color: #777777; }
+    .basic-info #my-passion #to-about-link {
+      font-size: 1.25rem;
+      font-weight: 500;
+      color: #777777;
+      text-decoration: none;
+      transition: all 0.5s ease; }
+    .basic-info #my-passion #to-about-link:hover {
+      color: black; }
 
 .skills-sec {
   margin-top: 2.5rem;
