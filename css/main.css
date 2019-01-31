@@ -134,23 +134,46 @@ body {
   display: flex;
   margin-top: 1rem; }
 
-.logo {
-  display: inline;
-  height: 95px;
-  width: 95px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+.logo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
   margin: 0 15px; }
 
-#html-logo {
-  background-image: url("../imgs/skills/html5.png"); }
+.logo {
+  height: auto;
+  max-width: 95px;
+  vertical-align: middle; }
 
-#css3-logo {
-  background-image: url("../imgs/skills/css3.png"); }
+.logo-descrip-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(234, 234, 234, 0.8);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s, visibility 1s; }
+
+.logo-wrap:hover .logo-descrip-wrap {
+  visibility: visible;
+  opacity: 1; }
+
+.logo-description {
+  transition: 1s;
+  transform: translateY(0.75em);
+  cursor: default; }
+
+.logo-wrap:hover .logo-description {
+  transform: translateY(0); }
 
 #sass-logo {
-  background-image: url("../imgs/skills/sass.png"); }
+  max-width: 90px; }
 
 #js-logo {
   background-image: url("../imgs/skills/javascript.png");
