@@ -188,11 +188,8 @@
   width: 100%;
   height: 1500px; }
 
-.proj-grid-sec {
-  border: 1px solid; }
-
 .proj-img {
-  height: 250px;
+  height: 271.5px;
   border: 1px solid #EAEAEA;
   background-size: contain;
   background-repeat: no-repeat;
@@ -200,5 +197,25 @@
 
 #cloudbox-img {
   background-image: url("../imgs/projects/cloudbox.png"); }
+
+#nameartist-img {
+  background-image: url("../imgs/projects/nametheartist.png"); }
+
+#saphire-img {
+  background-image: url("../imgs/projects/saphire.png"); }
+
+#mtg-img {
+  background-image: url("../imgs/projects/mtg.png"); }
+
+#modern-img {
+  background-image: url("../imgs/projects/themodern.png"); }
+
+#papercuts-img {
+  background-image: url("../imgs/projects/papercuts.png"); }
+
+.proj-title {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-top: 17.5px; }
 
 /*# sourceMappingURL=main.css.map */
