@@ -14,13 +14,13 @@
   .prog-skills-row1 {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
   }
 
   .prog-skills-row2 {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
   }
 
   .design-skills-sec {
@@ -33,13 +33,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100px;
+  width: 100px;
   position: relative;
   margin: 0 15px;
 }
 
 .logo {
-  height: auto;
-  max-width: 95px;
+  max-height: 90px;
+  max-width: 90px;
   vertical-align: middle;
 }
 
