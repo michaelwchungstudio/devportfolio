@@ -125,11 +125,11 @@ body {
 .logos-sec .prog-skills-row1 {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 35px; }
+  margin-bottom: 30px; }
 .logos-sec .prog-skills-row2 {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 35px; }
+  margin-bottom: 30px; }
 .logos-sec .design-skills-sec {
   display: flex;
   margin-top: 1rem; }
@@ -141,7 +141,7 @@ body {
   height: 100px;
   width: 100px;
   position: relative;
-  margin: 0 15px; }
+  margin: 0 10px; }
 
 .logo {
   max-height: 90px;
@@ -173,52 +173,6 @@ body {
 
 .logo-wrap:hover .logo-description {
   transform: translateY(0); }
-
-#sass-logo {
-  max-width: 90px; }
-
-#js-logo {
-  background-image: url("../imgs/skills/javascript.png");
-  background-size: 92.5%; }
-
-#jquery-logo {
-  background-image: url("../imgs/skills/jquery.png");
-  background-size: 92.5%; }
-
-#ruby-logo {
-  background-image: url("../imgs/skills/ruby.png");
-  background-size: 90%; }
-
-#rails-logo {
-  background-image: url("../imgs/skills/rails.png"); }
-
-#sqlite-logo {
-  background-image: url("../imgs/skills/sqlite.png"); }
-
-#git-logo {
-  background-image: url("../imgs/skills/git.png"); }
-
-#github-logo {
-  background-image: url("../imgs/skills/github.png"); }
-
-#heroku-logo {
-  background-image: url("../imgs/skills/heroku.png"); }
-
-#ps-logo {
-  background-image: url("../imgs/skills/photoshop.png");
-  background-size: 92.5%; }
-
-#ai-logo {
-  background-image: url("../imgs/skills/illustrator.png");
-  background-size: 92.5%; }
-
-#id-logo {
-  background-image: url("../imgs/skills/indesign.png");
-  background-size: 92.5%; }
-
-#pr-logo {
-  background-image: url("../imgs/skills/premierepro.png");
-  background-size: 92.5%; }
 
 .projects-sec {
   margin-top: 2.5rem;
