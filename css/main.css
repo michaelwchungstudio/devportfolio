@@ -197,7 +197,7 @@ body {
 .proj-img {
   height: 271px;
   border: 1px solid #EAEAEA;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center; }
 
