@@ -195,29 +195,9 @@ body {
   height: 1500px; }
 
 .proj-img {
-  height: 271px;
-  border: 1px solid #EAEAEA;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center; }
-
-#cloudbox-img {
-  background-image: url("../imgs/projects/cloudbox.png"); }
-
-#nameartist-img {
-  background-image: url("../imgs/projects/nametheartist.png"); }
-
-#saphire-img {
-  background-image: url("../imgs/projects/saphire.png"); }
-
-#mtg-img {
-  background-image: url("../imgs/projects/mtg.png"); }
-
-#modern-img {
-  background-image: url("../imgs/projects/themodern.png"); }
-
-#papercuts-img {
-  background-image: url("../imgs/projects/papercuts.png"); }
+  height: auto;
+  width: 100%;
+  border: 1px solid #EAEAEA; }
 
 .proj-title {
   font-size: 1.3rem;
